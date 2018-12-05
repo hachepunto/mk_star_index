@@ -1,0 +1,5 @@
+#!/bin/bash
+
+source config.mk
+basename $FASTA \
+| sed -e 's#.fa$#.done.ok#g'
